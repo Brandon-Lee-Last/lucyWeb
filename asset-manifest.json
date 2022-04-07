@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lucyWeb/static/css/main.073c9b0a.css",
+    "main.js": "/lucyWeb/static/js/main.6894f867.js",
+    "static/js/787.deed8a48.chunk.js": "/lucyWeb/static/js/787.deed8a48.chunk.js",
+    "static/media/logo.svg": "/lucyWeb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/lucyWeb/index.html",
+    "main.073c9b0a.css.map": "/lucyWeb/static/css/main.073c9b0a.css.map",
+    "main.6894f867.js.map": "/lucyWeb/static/js/main.6894f867.js.map",
+    "787.deed8a48.chunk.js.map": "/lucyWeb/static/js/787.deed8a48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6894f867.js"
+  ]
+}
