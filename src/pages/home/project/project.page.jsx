@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import {useSearchParams} from 'react-router-dom'
 import data from '../../../data/mock.data'
 import './project.styles.css'
-import * as THREE from "three";
 import { Canvas, useThree } from "@react-three/fiber";
 import { useLoader } from "@react-three/fiber";
 import { Environment, OrbitControls } from "@react-three/drei";
@@ -14,7 +13,7 @@ import Loader from "../../../components/loader/loader"
 const Project = (props) => {
     const [searchParams] = useSearchParams();
     const id = searchParams.get("id");
-    const [state, setState] = useState(data.data[id - 1])
+    const [state] = useState(data.data[id - 1])
 
     const deg2rad = degrees => degrees * (Math.PI / 180);
     
