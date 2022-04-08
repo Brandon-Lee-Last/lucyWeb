@@ -12,7 +12,7 @@ import { Suspense } from "react";
 import Loader from "../../../components/loader/loader"
 
 const Project = (props) => {
-    const [searchParams, setSearchParams] = useSearchParams();
+    const [searchParams] = useSearchParams();
     const id = searchParams.get("id");
     const [state, setState] = useState(data.data[id - 1])
 

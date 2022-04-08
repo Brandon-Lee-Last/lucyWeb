@@ -1,6 +1,5 @@
 import React from 'react'
 import './projects.styles.css'
-import { Animator, ScrollPage, batch, FadeIn, MoveIn } from "react-scroll-motion";
 import { useNavigate } from "react-router-dom";
 
 const Projects = (props) => {
@@ -22,9 +21,9 @@ const Projects = (props) => {
     <h1 className="project-title"><spann style={{color: '#ffa680'}}>My</spann> Projects</h1>
     <div id="projects" className="project-container">
     <main className="project">
-            {props.projectData.data.map((project) => {
+            {props.projectData.data.map((project, index) => {
                 return(
-                        <div onClick={() => getRedirected(project.id)} className="card" style={imageStyles}> 
+                        <div key={index} onClick={() => getRedirected(project.id)} className="card" style={imageStyles}> 
                         <h2 className="project-title">{project.title}</h2>
                         <h3 className="project-subtitle">view more details</h3>
                 </div>
