@@ -1,0 +1,107 @@
+project*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-p{
+    height: auto;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 968px;
+    padding: 30px 0;
+}
+header .title {
+    font-size: 1.618rem;
+    letter-spacing: 0.1ch;
+    text-transform: uppercase;
+    position: relative;
+}
+header .title::after {
+    background: linear-gradient(135deg, #0ff, #0af);
+    content: '';
+    display: block;
+    height: 4px;
+    margin-bottom: 20px;
+    width: 60px;
+}
+header .subtitle {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.project-container{
+    justify-content: center;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+    
+}
+
+@media only screen and (max-width: 490px){
+    .card{
+      width: 350px;
+    }
+
+    .project-container{
+        overflow: visible;
+    }
+
+    .project{
+        display: flex;
+        gap: 40px;
+        justify-content: none;
+        overflow: visible;
+        height: 10px;
+    }
+
+    .main-p{
+        height: 2400px;
+    }
+
+    .project-title{
+        text-align: center;
+        margin: 50px 0;
+    }
+    
+
+  }
+
+.card:hover::after, .card:hover .project-title, .card:hover .project-subtitle {
+    opacity: 1;
+}
+.card .project-title {
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0;
+    padding: 10px 0;
+    z-index: 10;
+}
+.card .project-subtitle {
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0;
+    padding: 10px 0;
+    z-index: 10;
+}

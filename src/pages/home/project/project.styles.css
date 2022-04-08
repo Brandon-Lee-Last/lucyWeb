@@ -1,0 +1,98 @@
+.projectPage{
+    padding: 50px;
+    text-align: center;
+}
+
+.projectDetails{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 5rem;
+    position: relative;
+    
+}
+
+.projectModel{
+    width: 50rem;
+    height: 45rem;
+    box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+}
+
+p{
+    padding: 10px;
+    font-size: 1.4rem;
+    margin-top: 10%;
+}
+
+.projectInfo{
+    width: 50rem;
+    height: 45rem;
+    background: white;
+    box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+}
+
+.projectPage h1 {
+    font-size: 5rem;
+}
+
+
+@media only screen and (max-width: 490px){
+
+    .projectPage{
+        padding: 10px;
+        text-align: center;
+    }
+
+    .projectDetails{
+        display: block;
+        gap: 5rem;
+        justify-content: center;
+        margin-top: 5rem;
+        position: relative;
+        
+    }
+
+    .projectModel{
+        width: 100%;
+        height: 30rem;
+        box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+        margin-bottom: 50px;
+    }
+
+    .projectInfo{
+        width: 100%;
+        height: 70rem;
+        background: white;
+        box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+    }
+
+}
+  
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    
+    .projectDetails{
+        display: block;
+        gap: 5rem;
+        justify-content: center;
+        margin-top: 5rem;
+        position: relative;
+        
+    }
+
+    .projectModel{
+        width: 100%;
+        height: 30rem;
+        box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+        margin-bottom: 50px;
+    }
+
+    .projectInfo{
+        width: 100%;
+        height: 70rem;
+        background: white;
+        box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+    }
+}
