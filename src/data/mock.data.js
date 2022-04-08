@@ -45,21 +45,20 @@ exports.data = [
         
     },
     {
-        id: 2,
-        title: 'Dresser',
-        details: 'kjsdhsajdjasjbdbsabdhbashdbhabdhvashdhvashvdhhasvdhvashvdhvasvdhasvhdvhasvdhvashvdhasvhdvhasvdhasvdhvashvdhasvhdvhasvdhvasvdhasvhdv',
-        model: 'dresser.obj',
-        mtl: 'dresser.mtl',
-        imageUrl: 'https://animecorner.me/wp-content/uploads/2022/03/sky-animation.png',
-        
+        id: 6,
+        title: 'COMING SOON',
+        details: 'COMING SOON',
+        model: '',
+        mtl: '',
+        imageUrl: 'assets/coming.jpg',
     },
     {
-        id: 2,
-        title: 'Dresser',
-        details: 'kjsdhsajdjasjbdbsabdhbashdbhabdhvashdhvashvdhhasvdhvashvdhvasvdhasvhdvhasvdhvashvdhasvhdvhasvdhasvdhvashvdhasvhdvhasvdhvasvdhasvhdv',
-        model: 'dresser.obj',
-        mtl: 'dresser.mtl',
-        imageUrl: 'https://animecorner.me/wp-content/uploads/2022/03/sky-animation.png',
+        id: 7,
+        title: 'COMING SOON',
+        details: 'COMING SOON',
+        model: '',
+        mtl: '',
+        imageUrl: 'assets/coming.jpg',
         
     },
 ]
