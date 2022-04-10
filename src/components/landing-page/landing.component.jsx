@@ -7,7 +7,7 @@ const LandingPage = () => {
     <ScrollPage page={0}>
         <section className="showcase">
 			<div className="video-container">
-				<video autoPlay muted loop>
+				<video autoPlay muted loop preload="true" controls="true" style={{width: '100%'}} webkit-playsinline>
                     <source src="assets/videos/radio.mp4" type='video/mp4'/>
                 </video>
 			</div>
