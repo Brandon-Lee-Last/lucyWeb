@@ -4,7 +4,7 @@ import { Animator, ScrollPage, MoveIn } from "react-scroll-motion";
 
 const Contact = () => {
   return (
-    <ScrollPage page={2}>
+    <ScrollPage page={3}>
     <div className="body">
         
     <div className="socialMedia">
@@ -59,14 +59,14 @@ const Contact = () => {
 
         </div>
         
-        <Animator animation={MoveIn(0, 300)}>
-        <form className="contact-us">
-            <input placeholder="Name" required="" type="text" />
-            <input name="customerEmail" placeholder="Email" type="email" />
-            <textarea name="message" placeholder="Message" ></textarea>
-            <button type="button">SEND</button>
-        </form>
-        </Animator>
+        {/*<Animator animation={MoveIn(0, 300)}>*/}
+        {/*<form className="contact-us">*/}
+        {/*    <input placeholder="Name" required="" type="text" />*/}
+        {/*    <input name="customerEmail" placeholder="Email" type="email" />*/}
+        {/*    <textarea name="message" placeholder="Message" ></textarea>*/}
+        {/*    <button type="button">SEND</button>*/}
+        {/*</form>*/}
+        {/*</Animator>*/}
     </div>
     </ScrollPage>
   )

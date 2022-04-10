@@ -1,0 +1,222 @@
+.projectPage{
+    display: inline-block;
+
+}
+
+.model-window{
+    width: 100%;
+    height: 35rem;
+    box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+    background: white;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+p{
+    padding: 10px;
+    font-size: 1.4rem;
+    margin-top: 10%;
+}
+
+.album{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: transparent;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.hint{
+    width: 10rem;
+    height: 10rem;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+
+h3{
+    position: absolute;
+    bottom: 7.5rem;
+    left: 8rem;
+    z-index: 9999;
+    color: white;
+}
+
+.images{
+    width: 48%;
+    height: 90%;
+}
+
+.fixed_name{
+    font-size: 2.5rem;
+    position: fixed;
+    left: 2vw
+}
+
+.top{
+    width: 100vw;
+    height: 40rem;
+    background: white;
+    margin-bottom:100px;
+    background: linear-gradient(-45deg, #FFF6AF, #93FFC1, #95A4FF, #95A4FF, #FFF6AF);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.bgImage{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+
+    width: 50rem;
+    height: 50rem;
+
+    object-attachment: fixed;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-attachment: fixed;
+    object-position: center;
+    object-fit: cover;
+    box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.pageMain{
+    padding: 0 20vw;
+}
+
+.info{
+    text-align: left;
+    width: 30vw;
+    height: 400px;
+    word-wrap: break-word;
+}
+
+p{
+    margin: 30px 0;
+    padding: 0;
+}
+
+.extra{
+    display: grid;
+}
+
+.projectPage h1 {
+    font-size: 5rem;
+}
+
+
+@media only screen and (max-width: 700px){
+
+    .pageMain{
+        padding: 10px;
+        text-align: center;
+    }
+
+    .info{
+        width: 95vw;
+    }
+
+    .fixed_name{
+        position: absolute;
+    }
+
+    .model-window{
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .album{
+        display: block;
+        height: 900px;
+        padding: 100px 0;
+    }
+
+    .images{
+        width: 90%;
+        height: 450px;
+        margin: 10px auto;
+    }
+
+    .projectDetails{
+        display: block;
+        gap: 5rem;
+        justify-content: center;
+        margin-top: 5rem;
+        position: relative;
+        
+    }
+
+    .projectModel{
+        width: 100%;
+        height: 30rem;
+        box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+        margin-bottom: 50px;
+    }
+
+    .projectInfo{
+        width: 100%;
+        height: 70rem;
+        background: white;
+        box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+    }
+
+    .bgImage{
+        width: 400px;
+        height: 400px;
+    }
+
+}
+  
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    
+    .projectDetails{
+        display: block;
+        gap: 5rem;
+        justify-content: center;
+        margin-top: 5rem;
+        position: relative;
+        
+    }
+
+    .projectModel{
+        width: 100%;
+        height: 30rem;
+        box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+        margin-bottom: 50px;
+    }
+
+    .projectInfo{
+        width: 100%;
+        height: 70rem;
+        background: white;
+        box-shadow: 15px 15px 1px #95a4ff, 15px 15px 1px 2px black;
+    }
+
+
+}
