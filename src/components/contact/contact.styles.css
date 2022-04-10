@@ -190,9 +190,6 @@ padding: 20px 15px 0;
 
 @media only screen and (max-width: 490px){
   .socialMedia{
-    display: block;
-    position: absolute;
-    margin: auto;
-    margin-top: 1500px;
+    display: none;
   }
 }
