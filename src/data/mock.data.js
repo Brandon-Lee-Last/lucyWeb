@@ -74,7 +74,7 @@ exports.data = [
         details: 'In AIE, we were tasked with creating our own character and kart for the super mario universe. I decided to do one based on Bowser and a quad bike. It was my second attempt at a character and first with hard surface modelling. I absolutely loved this experience.',
         model: 'Bernard.obj',
         mtl: 'Bernard.mtl',
-        imageUrl: 'assets/Bernard.png',
+        imageUrl: 'assets/bernard.png',
         background: 'assets/bernardBG.png',
         imageArray: ['assets/bernard.png', 'assets/bernard2.png'],
         actions: ['Modeling', 'Texturing', 'Lighting', 'Animation', 'Rigging']
