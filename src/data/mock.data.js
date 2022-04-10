@@ -38,7 +38,7 @@ exports.data = [
         title: 'Radio',
         details: 'Memorex 50s Retro style table top CD player and radio, modelled after an old school chevy. I was given this task of product visualization  by the Animation school and chose to do this radio. I felt that the retro style of it spoke to me. This is my favourite piece that I have created.',
         model: 'radio.obj',
-        mtl: '',
+        mtl: 'chair.mtl',
         imageUrl: 'assets/radio.png',
         background: 'assets/radioBG.png',
         imageArray: ['assets/radio.png', 'assets/radio2.png'],
