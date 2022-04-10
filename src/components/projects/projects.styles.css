@@ -76,6 +76,10 @@ main {
         height: 2400px;
     }
 
+    .top{
+        height: 50vh;
+    }
+
     .project-title{
         text-align: center;
         margin: 50px 0;
