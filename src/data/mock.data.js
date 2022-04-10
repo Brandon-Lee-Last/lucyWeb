@@ -38,7 +38,7 @@ exports.data = [
         title: 'Radio',
         details: 'Memorex 50s Retro style table top CD player and radio, modelled after an old school chevy. I was given this task of product visualization  by the Animation school and chose to do this radio. I felt that the retro style of it spoke to me. This is my favourite piece that I have created.',
         model: 'radio.obj',
-        mtl: 'radio.mtl',
+        mtl: '',
         imageUrl: 'assets/radio.png',
         background: 'assets/radioBG.png',
         imageArray: ['assets/radio.png', 'assets/radio2.png'],
@@ -74,7 +74,7 @@ exports.data = [
         details: 'In AIE, we were tasked with creating our own character and kart for the super mario universe. I decided to do one based on Bowser and a quad bike. It was my second attempt at a character and first with hard surface modelling. I absolutely loved this experience.',
         model: 'Bernard.obj',
         mtl: 'Bernard.mtl',
-        imageUrl: 'assets/bernard.png',
+        imageUrl: 'assets/Bernard.png',
         background: 'assets/bernardBG.png',
         imageArray: ['assets/bernard.png', 'assets/bernard2.png'],
         actions: ['Modeling', 'Texturing', 'Lighting', 'Animation', 'Rigging']
