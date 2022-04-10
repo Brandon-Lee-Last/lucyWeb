@@ -8,7 +8,6 @@ import { Environment, OrbitControls } from "@react-three/drei";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 import { MTLLoader } from "three/examples/jsm/loaders/MTLLoader";
 import { Suspense } from "react";
-import Loader from "../../components/loader/loader"
 import Scroll from 'react-scroll'
 
 const Project = (props) => {
@@ -42,7 +41,7 @@ const Project = (props) => {
 
     useEffect(() => {
         scroll.scrollToTop({delay: 500})
-    }, [])
+    }, [scroll])
 
     if(state.details === 'COMING SOON') return (<div></div>)
 
@@ -54,7 +53,7 @@ const Project = (props) => {
         </h2>
         <Element name="myScrollToElement"></Element>
         <div style={styles} className="top" id="start">
-            <img className="bgImage" src={state.background}/>
+            <img alt="bg" className="bgImage" src={state.background}/>
         </div>
 
         <div className="pageMain">
@@ -72,7 +71,7 @@ const Project = (props) => {
             <div className="model-window">
 
                 <div>
-                    <img className="hint" src="assets/Move.gif"/>
+                    <img alt="hint" className="hint" src="assets/Move.gif"/>
                     <h3>Move Me Around</h3>
                 </div>
                 <Canvas>
@@ -91,7 +90,7 @@ const Project = (props) => {
             <div className="album">
                 {state.imageArray.map((image) => {
                     return (<div className="images">
-                        <img className="image" src={image}/>
+                        <img alt={image} className="image" src={image}/>
                     </div>)
                 })}
             </div>
